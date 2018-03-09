@@ -7,7 +7,7 @@ class HumanPlayer
     @board = board
     custom ? customize_board : board.populate_grid
   end
-	def get_play
+  def get_play
     print "where to attack: "
     get_pos
 	end
